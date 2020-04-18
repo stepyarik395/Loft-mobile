@@ -119,7 +119,7 @@ body {
 .bg-main-content {
   background-color: #f5f5f5; }
 
-.first-post {
+.big-post {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -127,7 +127,7 @@ body {
   width: 280px;
   height: 410px; }
 
-.Clasification-post {
+.clasification-post {
   position: relative;
   display: flex;
   bottom: 40px;
@@ -167,7 +167,7 @@ body {
   border-radius: 4px;
   background-color: #fff; }
 
-.title-first-post {
+.title-big-post {
   line-height: 25px;
   padding-top: 15px;
   margin-left: 20px;
@@ -176,7 +176,7 @@ body {
   font-weight: bold;
   font-size: 16px; }
 
-.offer-first-post {
+.offer-big-post {
   margin-left: 20px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -216,26 +216,23 @@ body {
   margin-left: 15px;
   margin-bottom: 10px; }
 
-.max-global {
+.main-wrapper {
   display: flex; }
 
-.global {
+.main-wrapper {
   margin-left: 20px;
   margin-bottom: 20px;
   width: 280px;
   display: flex;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); }
 
-.next-post2 {
-  border-radius: 4px; }
-
-.Clasification-post__small-2 {
+.clasification-post__horizontal {
   margin-bottom: -45px;
   position: relative;
   bottom: 40px;
   left: 10px; }
 
-.inspiration__small-2 {
+.text-small {
   position: relative;
   bottom: 10px;
   color: #fff;
@@ -243,27 +240,27 @@ body {
   font-size: 12px;
   font-family: 'Montserrat', sans-serif; }
 
-.like-coment__small-2 {
+.like-coment__horizontal {
   position: relative;
   bottom: 5px;
   display: flex;
   color: #fff; }
 
-.comment__small-2 {
+.comment__horizontal {
   color: #fff;
   display: flex; }
 
-.kol-coment__small-2 {
+.number__horizontal {
   font-size: 12px;
   margin-right: 20px;
   margin-left: 5px; }
 
-.white-box {
+.content__block__horizontal {
   border-radius: 4px;
   width: 150px;
   background-color: #fff; }
 
-.title-white-box {
+.title__horizontal {
   margin: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -294,7 +291,7 @@ body {
   font-size: 14px;
   font-weight: bold; }
 
-.wrapper-next-post2 {
+.wrapper-date__horizontal {
   margin-top: 5px;
   margin-left: 10px;
   display: flex;
@@ -305,7 +302,7 @@ body {
   font-size: 12px;
   font-family: 'Montserrat', sans-serif; }
 
-.wrapper-next-post2 img {
+.wrapper-date__horizontal img {
   margin-right: 20px;
   margin-bottom: 3px; }
 
@@ -313,7 +310,8 @@ body {
   width: 130px;
   background-color: #fff; }
 
-.next-post2 {
+.vertical-post__wrapper {
+  border-radius: 4px;
   margin-left: 20px;
   margin-bottom: 20px; }
 
