@@ -5,6 +5,9 @@
 body{
 	width: 320px;
 }
+.flex-wrapper{
+	display: flex;
+}
 .dark-blue-line{
 	height: 40px;
 	background-color: #303f9f;
@@ -127,6 +130,12 @@ body{
 	padding-top: 20px;
 	width: 280px;
 	height: 410px;
+
+}
+.play-icon{
+	position: absolute;
+	left:110px;
+	top:60px;
 }
 .clasification-post{
 	position: relative;
@@ -134,13 +143,16 @@ body{
 	bottom: 40px;
 	margin-bottom: -25px;
 }
-.inspiration{
-	position: relative;
-	left: 15px;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	color:#fff;
-	font-size: 12px;
+.name-post{
+	span{
+		position: relative;
+		left: 15px;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		color:#fff;
+		font-size: 12px;
+	}
+	
 }
 .like-coment{
 	position: relative;
@@ -308,7 +320,7 @@ body{
 	margin-right: 20px;
 	margin-bottom: 3px;
 }
-.white-box__small{
+.content__block__vertical{
 	width: 130px;
 	background-color: #fff;
 }
@@ -322,9 +334,8 @@ body{
 	margin-bottom: 20px;
 }
 .big-photo-post{
+	position: relative;
 	margin-left: 20px;
-}
-.big-photo-post{
 	margin-bottom: 20px;
 }
 .bg-main-content2{
