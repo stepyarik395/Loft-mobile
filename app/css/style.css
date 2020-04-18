@@ -107,6 +107,10 @@ body {
 
 .input-button a {
   font-size: 16px; }
+  .input-button a:nth-child(1) {
+    margin-bottom: 3px; }
+  .input-button a:nth-child(2) {
+    margin-top: 3px; }
 
 .fa-sort-down {
   color: #6d6d6d;
@@ -123,12 +127,14 @@ body {
   background-color: #f5f5f5; }
 
 .big-post {
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  padding-top: 20px;
-  width: 280px;
-  height: 410px; }
+  width: 280px; }
+
+.custom-padding {
+  padding-top: 20px; }
 
 .play-icon {
   position: absolute;
@@ -138,37 +144,48 @@ body {
 .clasification-post {
   position: relative;
   display: flex;
-  bottom: 40px;
-  margin-bottom: -25px; }
+  bottom: 35px;
+  margin-bottom: -25px;
+  justify-content: space-between; }
 
 .name-post span {
-  position: relative;
-  left: 15px;
+  display: flex;
+  padding-left: 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #fff;
   font-size: 12px; }
 
 .like-coment {
-  position: relative;
-  left: 65px;
+  padding-right: 22px;
   display: flex; }
+  .like-coment div:nth-child(2) {
+    margin-left: 20px; }
 
 .comment {
   color: #fff;
   display: flex;
   align-items: center; }
-
-.kol-coment {
-  margin-left: 5px; }
+  .comment img {
+    width: 12px;
+    height: 12px; }
 
 .like {
   color: #fff;
   display: flex;
   align-items: center; }
+  .like img {
+    width: 12px;
+    height: 12px; }
 
-.kol-coment {
-  margin-right: 20px;
+.comment span {
+  display: block;
+  padding-left: 10px;
+  color: #fff; }
+
+.like span {
+  display: block;
+  padding-left: 10px;
   color: #fff; }
 
 .white-wrapper {
@@ -328,6 +345,7 @@ body {
   margin-bottom: 20px; }
 
 .big-photo-post {
+  width: 280px;
   position: relative;
   margin-left: 20px;
   margin-bottom: 20px; }
