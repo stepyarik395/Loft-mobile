@@ -93,7 +93,8 @@ body {
   height: 42px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 15px; }
+  padding-left: 15px;
+  color: #212121; }
 
 .input-button {
   display: flex;
@@ -242,9 +243,6 @@ body {
   margin-bottom: 10px; }
 
 .main-wrapper {
-  display: flex; }
-
-.main-wrapper {
   margin-left: 20px;
   margin-bottom: 20px;
   width: 280px;
@@ -272,25 +270,53 @@ body {
   color: #fff; }
 
 .comment__horizontal {
-  color: #fff;
+  padding-right: 30px;
   display: flex; }
+  .comment__horizontal img {
+    width: 15px;
+    height: 14px;
+    margin-right: 7px; }
+  .comment__horizontal span {
+    font-size: 13px; }
+
+.like__horizontal {
+  display: flex; }
+  .like__horizontal img {
+    width: 15px;
+    height: 14px;
+    margin-right: 7px; }
+  .like__horizontal span {
+    font-size: 13px; }
 
 .number__horizontal {
-  font-size: 12px;
-  margin-right: 20px;
-  margin-left: 5px; }
+  font-size: 12px; }
 
 .content__block__horizontal {
+  padding-bottom: 4px;
   border-radius: 4px;
   width: 150px;
   background-color: #fff; }
 
 .title__horizontal {
-  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #000;
   font-size: 15px; }
+
+.title__vertical {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 15px; }
+
+.padding-align {
+  padding-bottom: 7px; }
 
 .title-white-box2 {
   font-family: 'Montserrat', sans-serif;
@@ -310,7 +336,7 @@ body {
 
 .user-name__user-card {
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -328,12 +354,13 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .wrapper-date__horizontal img {
-  margin-right: 20px;
+  margin-right: 12px;
   margin-bottom: 3px; }
 
 .content__block__vertical {
   width: 130px;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100px; }
 
 .vertical-post__wrapper {
   border-radius: 4px;
