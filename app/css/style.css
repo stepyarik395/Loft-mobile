@@ -10,10 +10,12 @@ body {
 
 @font-face {
   font-family: "MyriadProRegular";
-  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"); }
+  src: url("../fonts/MyriadProRegular.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 
 .flex-wrapper {
+  width: 280px;
   display: flex;
   margin-left: 2rem;
   margin-bottom: 2rem; }
@@ -265,7 +267,7 @@ body {
   margin-bottom: 2rem;
   width: 280px;
   display: flex;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); }
 
 .clasification-post__horizontal {
   margin-bottom: -4.5rem;
@@ -412,11 +414,11 @@ body {
   letter-spacing: 1.5px;
   word-spacing: 1px;
   margin-left: 2rem;
-  font-family: "MyriadProRegular";
   font-size: 1.4rem;
   color: white;
   opacity: .5;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  font-family: "MyriadProRegular"; }
 
 .offer-main-content2 span {
   text-transform: uppercase; }
@@ -444,7 +446,8 @@ body {
   margin-bottom: 2rem; }
 
 .img-horizontal-param {
-  height: 105px; }
+  height: 100%;
+  width: 130px; }
 
 .block-categories {
   margin-top: 2rem;
