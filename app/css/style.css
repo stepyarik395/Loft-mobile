@@ -14,7 +14,9 @@ body {
   src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"); }
 
 .flex-wrapper {
-  display: flex; }
+  display: flex;
+  margin-left: 2rem;
+  margin-bottom: 2rem; }
 
 .dark-blue-line {
   height: 40px;
@@ -43,6 +45,9 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold; }
+
+.flex-item {
+  padding-right: 2rem; }
 
 .arrow-down {
   color: #7e87c3; }
@@ -268,6 +273,14 @@ body {
   bottom: 4rem;
   left: 1rem; }
 
+.clasification-post__vertical {
+  position: absolute;
+  top: 6rem;
+  left: 1rem; }
+
+.padding-up {
+  padding-bottom: 2rem; }
+
 .text-small {
   position: relative;
   bottom: 1rem;
@@ -324,7 +337,7 @@ body {
 
 .title__vertical {
   margin-bottom: 1.5rem;
-  margin-top: 2rem;
+  padding-top: .5rem;
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -342,7 +355,7 @@ body {
 
 .user-name__user-card {
   display: block;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
@@ -365,17 +378,16 @@ body {
   margin-bottom: 3px; }
 
 .content__block__vertical {
+  padding-bottom: 1rem;
   width: 130px;
   background-color: #fff; }
 
 .vertical-post__wrapper {
-  border-radius: 4px;
-  margin-left: 2rem;
-  margin-bottom: 2rem; }
+  position: relative;
+  border-radius: 4px; }
 
 .photo-post {
-  margin-left: 2rem;
-  margin-bottom: 2rem; }
+  height: 102px; }
 
 .big-photo-post {
   width: 280px;
@@ -430,6 +442,9 @@ body {
   margin-top: 5rem;
   margin-left: 2rem;
   margin-bottom: 2rem; }
+
+.img-horizontal-param {
+  height: 105px; }
 
 .block-categories {
   margin-top: 2rem;
